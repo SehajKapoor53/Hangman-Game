@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman - SehajStuff</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>Hangman</h1>
+    <svg id ="setup" width="500" height="320" viewBox="0 0 120 160">
+        <use href="assets/hangman-sprite.svg#gallows-base" transform="translate(-25,76)"></use>
+        <use href="assets/hangman-sprite.svg#gallows-post"></use>
+        <use href="assets/hangman-sprite.svg#gallows-beam"></use>
+        <use href="assets/hangman-sprite.svg#gallows-hanger"></use>
+        <use class="part" id="head" href="assets/hangman-sprite.svg#head"></use>
+        <use class="part" id="torso" href="assets/hangman-sprite.svg#torso"></use>
+        <use class="part" id="left-arm" href="assets/hangman-sprite.svg#left-arm"></use>
+        <use class="part" id="right-arm" href="assets/hangman-sprite.svg#right-arm"></use>
+        <use class="part" id="left-leg" href="assets/hangman-sprite.svg#left-leg"></use>
+        <use class="part" id="right-leg" href="assets/hangman-sprite.svg#right-leg"></use>
+
+    </svg>
+    <div id="word-placeholder"></div>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+
+</html>

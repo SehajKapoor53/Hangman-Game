@@ -1,0 +1,25 @@
+*{
+    margin: 0;padding: 0;
+    font-family: Poppins;
+}
+
+body{
+    margin:5px;
+    background-color: aliceblue;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.part,.c{
+    visibility:hidden;
+}
+
+#word-placeholder{
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    gap: 10px;
+}
